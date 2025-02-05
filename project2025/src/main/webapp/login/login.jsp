@@ -22,8 +22,8 @@
 	      
 	        <a href="#">비밀번호 찾기</a>
 	      
-	      <button>로그인</button>
-	    </form>
+	    	      <button style="background-color : rgba(36,39,43,1); border: none;">로그인</button>
+		</form>
 	  </div>
 	  <div class="form-container sign-in-container">
 	    <form action="#">
@@ -34,7 +34,7 @@
 	    	<input type="password" placeholder="Password" />
 	       	<a href="#">비밀번호 찾기</a>
 	      
-	      <button>로그인</button>
+	      <button style="background-color : rgba(36,39,43,1); border: none;">로그인</button>
 	    </form>
 	  </div>
 	  

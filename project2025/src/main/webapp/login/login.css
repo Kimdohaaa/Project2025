@@ -90,7 +90,7 @@ input {
 }
 
 .container {
-  background-color: #fff;
+ background-color: #fff;
   border-radius: 10px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
       0 10px 10px rgba(0,0,0,0.22);
@@ -159,14 +159,15 @@ input {
   transform: translateX(-100%);
 }
 
-/* 색상 바꿀지도... */
+/* 색상 바꾸기 완 */
 .overlay {
-  background: #FF416C;
+	background-color : rgba(36,39,43,1);
+ /* background: #FF416C;
   background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
   background: linear-gradient(to right, #FF4B2B, #FF416C);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0 0;
+  background-position: 0 0;*/
   color: #FFFFFF;
   position: relative;
   left: -100%;

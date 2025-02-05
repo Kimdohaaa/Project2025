@@ -23,7 +23,7 @@
 	      <input type="password" placeholder="Password" />
 	      <input type="email" placeholder="Email" />
 
-	      <button>회원가입</button>
+	      <button style="background-color : rgba(36,39,43,1); border: none;">회원가입</button>
 	    </form>
 	  </div>
 	  <div class="form-container sign-in-container">
@@ -37,7 +37,8 @@
 	      <input type="password" placeholder="Password" />
 	      <input type="email" placeholder="Email" />
 
-	      <button>회원가입</button>
+	      <button style="background-color : rgba(36,39,43,1); border: none;">회원가입</button>
+
 	    </form>
 	  </div>
 	  
