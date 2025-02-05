@@ -98,19 +98,10 @@
                             </a>
                             <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
-                                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
-                                        관리자 정보 조회
-                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                                    </a>
-                                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
-                                        관리자 정보 수정
-                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                                    </a>
-                                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
-                                        로그아웃
-                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                                    </a>
-                                 </nav>
+                                    	<a class="nav-link" href=v>관리자 정보 조회</a>
+		                                <a class="nav-link" href=v>관리자 정보 수정</a> <!-- 정보 조회에서 수정 페이지로 이동할 시 삭제 -->
+		                                <a class="nav-link" href=v>로그아웃</a>
+		                        </nav>
                             </div>
                             
                         </div>
@@ -123,14 +114,19 @@
         <!-- 사이드 바 E -->
         
         
+        <div id="layoutSidenav_content">
+            <main>
+        		<!-- 개인 기능 구현 페이지 -->
+        	</main>
+        </div>
         
         
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
-        <script src="assets/demo/chart-area-demo.js"></script>
-        <script src="assets/demo/chart-bar-demo.js"></script>
+        <script src="assets/demo/chart-area-demo.js"></script>	<!-- 그래프 차트 JS -->
+        <script src="assets/demo/chart-bar-demo.js"></script>	<!-- 바 차트 JS -->
         <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
         <script src="js/datatables-simple-demo.js"></script>
     </body>
